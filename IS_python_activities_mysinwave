@@ -1,0 +1,9 @@
+from matplotlib import pyplot as plt
+import numpy as np
+
+x = np.linspace(20,1)
+
+plt.plot(x, np.sin(x), color='green')
+plt.xlabel('Time')
+plt.ylabel('Amplitude')
+plt.title('My sine')
